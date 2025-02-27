@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Путь к гармонии</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logo-black.png" alt="logo" class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Практики</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">О нас</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Отзывы</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Записаться</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Ваш путь к
+          <br />
+          <span class="highlight">гармонии</span> начинается здесь
+        </h1>
+        <h4>Простые шаги к внутреннему спокойствию</h4>
+        <button class="btn--text btn--scroll-to">Узнать больше ↓</button>
+        <img src="img/main-section.png" class="header__img" alt="img" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Практики</h2>
+        <h3 class="section__header">Всё для вашего тела и души уже ждет вас</h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/photo-5-lazy.jpg"
+          data-src="img/photo-5.jpg"
+          alt="img"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Гибкий график занятий</h5>
+          <p>
+            Выбирайте удобное время для практик йоги, чтобы они легко
+            вписывались в ваш ритм жизни. Мы предлагаем утренние, дневные и
+            вечерние сессии.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Рост на всех уровнях</h5>
+          <p>
+            Следите за своим прогрессом в физической форме, дыхательных
+            практиках и медитации с нашими опытными инструкторами.
+          </p>
+        </div>
+        <img
+          src="img/photo-4-lazy.jpg"
+          data-src="img/photo-4.jpg"
+          alt="img"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/photo-3-lazy.jpg"
+          data-src="img/photo-3.jpg"
+          alt="img"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Бесплатные пробные уроки</h5>
+          <p>
+            Попробуйте наши занятия без каких-либо обязательств, чтобы понять,
+            подходит ли вам наш подход к йоге.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">О нас</h2>
+        <h3 class="section__header">Мы открываем двери в мир йоги</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Индивидуальный подход
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Онлайн-занятия
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Групповые практики
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Мы подберем практику под ваши цели</h5>
+          <p>
+            Наши инструкторы помогут вам сосредоточиться на том, что важно
+            именно вам — будь то здоровье тела, снятие стресса или духовный
+            рост.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Практикуйте йогу из дома с комфортом
+          </h5>
+          <p>
+            Подключайтесь к нашим онлайн-сессиям в любое время и занимайтесь
+            йогой там, где вам удобно.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Общайтесь и растите вместе с единомышленниками
+          </h5>
+          <p>
+            Присоединяйтесь к нашим групповым занятиям, чтобы вдохновляться
+            энергией сообщества и делиться опытом.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Все еще сомневаетесь?</h2>
+        <h3 class="section__header">Тысячи людей нашли гармонию с нами</h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Йога изменила мою жизнь</h5>
+            <blockquote class="testimonial__text">
+              Благодаря этим занятиям я научилась справляться со стрессом и
+              чувствовать себя гораздо лучше в теле. Это был лучший выбор!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Иван Купцов</h6>
+              <p class="testimonial__location">Москва</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Я наконец обрела внутренний покой
+            </h5>
+            <blockquote class="testimonial__text">
+              Долго искала практику, которая мне подойдет, и нашла её здесь.
+              Инструкторы очень внимательные, а занятия вдохновляют.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Мария Иванова</h6>
+              <p class="testimonial__location">Великий Новгород</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Мое тело стало сильнее, а мысли — яснее
+            </h5>
+            <blockquote class="testimonial__text">
+              Йога с этой командой помогла мне не только улучшить физическую
+              форму, но и найти баланс в жизни. Рекомендую всем!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Иван Савельев</h6>
+              <p class="testimonial__location">Казань</p>
+            </address>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">←</button>
+        <button class="slider__btn slider__btn--right">→</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Начните свой путь к гармонии уже сегодня
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Запишитесь на занятие</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">О нас</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Расписание</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Условия</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Политика конфиденциальности</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Стать инструктором</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Блог</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <img src="img/logo-white.png" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">×</button>
+      <h2 class="modal__header">
+        Запишитесь на занятие<br />
+        всего за <span class="highlight">5 минут</span>
+      </h2>
+      <form class="modal__form">
+        <label>Имя</label>
+        <input type="text" />
+        <label>Фамилия</label>
+        <input type="text" />
+        <label>Email</label>
+        <input type="email" />
+        <button class="btn">Записаться →</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
